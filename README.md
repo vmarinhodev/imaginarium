@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Project Overview
 
-## Getting Started
+This project is a web application that allows users to upload images to a Supabase database. The application is built using Next.js and utilizes various libraries such as React Hook Form, Zod, and Uppy for image uploading.
 
-First, run the development server:
+## Key Features
+
+User authentication using Supabase
+Image uploading to Supabase database
+React Hook Form for form handling and validation
+Zod for schema validation
+Uppy for image uploading
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+copy link here
 ```
+## Components
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Login form with email and password fields
+Image uploader form with file input and upload button
+Dashboard for displaying uploaded images
+Navbar with links to login, dashboard, and other pages
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Functionality
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Users can log in to the application using their email and password
+Users can upload images to the Supabase database
+Users can view their uploaded images on the dashboard
+The application uses React Hook Form to handle form submissions and validation
+The application uses Zod to validate schema for form data
+The application uses Uppy to handle image uploading
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
