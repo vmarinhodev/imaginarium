@@ -10,9 +10,6 @@ This project is a web application that allows users to upload images to a Supaba
 - Zod for schema validation
 - Uppy for image uploading
 
-```bash
-copy link here
-```
 ## Components
 
 - Login form with email and password fields
@@ -29,3 +26,6 @@ copy link here
 - The application uses Zod to validate schema for form data
 - The application uses Uppy to handle image uploading
 
+```bash
+copy Imaginarium
+```
